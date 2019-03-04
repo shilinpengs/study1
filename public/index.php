@@ -18,7 +18,6 @@
 | loading any of our classes later on. It feels nice to relax.
 |
 */
-//shilinpeng
 require __DIR__.'/../bootstrap/autoload.php';
 
 /*
