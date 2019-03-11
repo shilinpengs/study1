@@ -1,5 +1,5 @@
 <?php
-//echo date('Y-m-d H:i:s');die;
+echo date('Y-m-d H:i:s');die;
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
