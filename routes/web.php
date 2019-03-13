@@ -17,4 +17,4 @@ Route::get('/', function () {
 
 Route::get('/files', 'FileController@index');
 Route::get('/index', 'IndexController@index');
-Route::get('/index', 'AdminController@index');
+Route::get('/admin', 'AdminController@index');
