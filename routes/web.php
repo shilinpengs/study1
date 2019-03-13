@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('/files', 'FileController@index');
+Route::get('/index', 'IndexController@index');
