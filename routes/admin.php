@@ -6,9 +6,7 @@
  * Time: 下午2:55
  */
 
-
-
-Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function() {
+Route::group(['prefix' => 'Admin', 'namespace' => 'Admin'], function() {
     Route::get('index', 'IndexController@index');
     Route::get('test', function() {
         return 'your route is ready';
