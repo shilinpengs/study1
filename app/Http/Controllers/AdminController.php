@@ -3,12 +3,12 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 
-class IndexController extends Controller
+class AdminController extends Controller
 {
 
     public function index() {
 
-        echo 'index';
+        echo 'admin';
 
     }
 
